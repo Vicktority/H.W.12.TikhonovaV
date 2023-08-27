@@ -1,3 +1,15 @@
-@mixin font-face {
-    
-}
+@mixin font-face($font-type, $font-weight, $path) {
+    $font-type-woff: ".woff";
+    $font-type-woff-2: ".woff2";
+    @font-face {
+      $pathToFont:$path + $font-type;
+      font-family:"GraphikLCG";
+      src: url($pathToFont + $font-type-woff) format($font-type-woff);
+      src: url($pathToFont + $font-type-woff-2) format($font-type-woff-2);
+      font-weight: $font-weight;
+      font-style: normal;
+    }
+  }
+    $path:"../assets/fonts/GraphikLCS/";
+   @include font-face("GraphikLCG-Regular", 400, $path);
+   @include font-face("GraphikLCG-Semibold", 500, $path);
