@@ -30,8 +30,6 @@
   color: #000;
   font-family: var(--bs-font-sans-serif);
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px;
   padding: 0;
 }
@@ -63,7 +61,7 @@
 }
 
 .btn-red {
-  background-color: #FF6336;
+  background-color: #ff6336;
   color: white;
   display: inline-block;
   border: none;
@@ -77,4 +75,54 @@
 
 .btn-red:focus {
   outline: none;
+}
+
+.top-info {
+  padding: 133px 0 182px;
+}
+
+.top-info-text h1 {
+  color: #000;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+.top-info-text p {
+  color: #000;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  margin: 51px 0;
+}
+.top-info-text span {
+  color: #000;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.top-info-image img {
+  width: 100%;
+}
+
+.companies {
+  background: #FF9C7D;
+  padding: 98px 0 94px;
+}
+
+.wrap-companies h2 {
+  text-align: center;
+  color: #000;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 70px;
 }

@@ -1,39 +1,36 @@
 @import "./fonts";
 
 :root {
-    --bs-font-sans-serif: "GraphikLCG", sans-serif;
+  --bs-font-sans-serif: "GraphikLCG", sans-serif;
 }
 .container-fluid {
   max-width: 1330px;
 }
-.navbar{
+.navbar {
   border-bottom: 1px solid #ccc;
   padding: 25px 0;
 }
 .nav-link {
-text-decoration: none;
-color: #000;
-font-family: var(--bs-font-sans-serif);
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-padding: 0;
+  text-decoration: none;
+  color: #000;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
 }
-.navbar-brand{
+.navbar-brand {
   margin-right: 51px;
 }
 .navbar-nav {
-a {
-  margin-right: 57px;
-  padding: 0;
-  &:last-child{
-    margin-right: 0;
-  } 
-  
+  a {
+    margin-right: 57px;
+    padding: 0;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
-}
-.btn{
+.btn {
   font-size: 15px;
   font-weight: 600;
   line-height: 45px;
@@ -42,21 +39,71 @@ a {
   text-decoration: none;
 }
 .btn-white {
-background-color: white;
-border: 1px solid black;
-
+  background-color: white;
+  border: 1px solid black;
 }
 .btn-red {
-background-color:#FF6336;
-color: white;
-display: inline-block;
-border: none;
-transition: all 0.3s easy-in-out;
+  background-color: #ff6336;
+  color: white;
+  display: inline-block;
+  border: none;
+  transition: all 0.3s easy-in-out;
 }
 .btn-red:hover {
-  background-color: black ;
+  background-color: black;
   color: #fff;
 }
 .btn-red:focus {
   outline: none;
+}
+
+.top-info {
+  padding: 133px 0 182px;
+}
+.top-info-text {
+  h1 {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+  }
+  p {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 51px 0;
+  }
+  span {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 25px;
+    display: inline-block;
+  }
+}
+.top-info-image img {
+  width: 100%;
+}
+.companies {
+  background: #FF9C7D;
+padding: 98px 0 94px;
+
+}
+.wrap-companies{
+  h2 {
+    text-align: center;
+    color: #000;
+font-family: var(--bs-font-sans-serif);
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+margin-bottom: 70px;
+  }
 }
