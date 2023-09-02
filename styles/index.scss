@@ -1,5 +1,7 @@
 @import "./fonts";
-
+*{
+  box-sizing: border-box;
+}
 :root {
   --bs-font-sans-serif: "GraphikLCG", sans-serif;
 }
@@ -92,18 +94,61 @@
   width: 100%;
 }
 .companies {
-  background: #FF9C7D;
-padding: 98px 0 94px;
-
+  background: #ff9c7d;
+  padding: 98px 0 94px;
 }
-.wrap-companies{
+.wrap-companies {
   h2 {
     text-align: center;
     color: #000;
-font-family: var(--bs-font-sans-serif);
-font-size: 50px;
-font-weight: 600;
-line-height: 60px;
-margin-bottom: 70px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 70px;
   }
+}
+.product {
+  padding: 90px 0 150px;
+}
+.box{
+  margin-bottom: 250px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+.box-text {
+  h3 {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+  }
+  p {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 51px 0;
+    width: 88%;
+    a{
+      color: #000;
+    }
+  }
+  span {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    
+  }
+}
+.box-image img {
+  width: 100%;
 }
