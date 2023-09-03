@@ -133,7 +133,7 @@
     font-weight: 400;
     line-height: 30px;
     margin: 51px 0;
-    width: 88%;
+    width: 91%;
     a {
       color: #000;
     }
@@ -199,6 +199,15 @@
     font-weight: 400;
     line-height: 25px;
   }
+  a {
+    color: #000;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 25px;
+  }
 }
 .team {
   padding: 154px 0 120px;
@@ -232,13 +241,11 @@
   }
   a {
     color: #000;
-font-family:  var(--bs-font-sans-serif);
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin-top: 25px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
   }
-}
-.row wrap {
 }
