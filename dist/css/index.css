@@ -24,7 +24,7 @@ p {
   --bs-font-sans-serif: "GraphikLCG", sans-serif;
 }
 
-.container-fluid {
+.container {
   max-width: 1330px;
 }
 
@@ -338,6 +338,7 @@ p {
 .cake-right {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .cake-right-item {
@@ -542,6 +543,10 @@ p {
 }
 
 @media (max-width: 780px) {
+  .nav-btn {
+    margin: 15px auto 0;
+    justify-content: center;
+  }
   .cake .container {
     flex-wrap: wrap;
   }
