@@ -504,7 +504,14 @@ font-weight: 400;
 line-height: 15px; 
   }
 }
-@media (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 960px) {
+  .top-info{
+    padding: 70px 0;
+    h1{
+      font-size: 50px;
+    }
+  }
+
   .nav-btn{
     margin: 15px auto 0;
     justify-content: center;
@@ -516,13 +523,35 @@ line-height: 15px;
       padding: 0;
       width: 100%;
       margin-bottom: 30px;
+        flex-direction: column;
+        border: none;
+        p{
+          margin: 0;
+          width: 100%;
+          line-height: 1;
+          text-align: center;
+          font-size: 35px;
+          margin-top: 10px;
+        }
   }
+  .cake-right-item:first-child {
+    margin: 0;
+}
+.cake-right{
+  width: 100%;
+  justify-content: space-around;
+  
+}
   .intergation{
+      padding: 130px 0 130px;
     h2{
       width: 100%;
+      font-size: 45px;
+      line-height: 55px;
     }
     p{
       width: 100%;
+      margin: 15px 0;
     }
   }
   .photo-text {
@@ -532,6 +561,60 @@ line-height: 15px;
   img{
     display: block;
     margin: 25px auto 0;
+  }
+}
+.localization h2 {
+  font-size: 45px;
+  line-height: 55px;
+  width: 100%;
+}
+.product{
+  .box:nth-child(even){
+      .row{
+        flex-direction: column-reverse;
+      }
+  }
+}
+.box-text h3 {
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+}
+.box-text h3 {
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.box {
+  margin-bottom: 100px;
+}
+.box-text span {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.product {
+  padding: 90px 0 120px;
+}
+.team {
+  padding: 125px 0 120px;
+}
+.team h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.team-item img {
+  margin: auto;
+  display: block;
+}
+.team-item h4 {
+  text-align: center;
+}
+.companies{
+  img{
+    width: 25%;
+    margin: 0 10px;
   }
 }
 }
