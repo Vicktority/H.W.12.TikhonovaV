@@ -180,6 +180,7 @@ p{
   align-items: center;
   padding: 0 14px;
   margin: 58px 0 0;
+  justify-content: center;
   img {
     width: 160px;
     display: inline-block;
@@ -615,6 +616,11 @@ line-height: 15px;
   img{
     width: 25%;
     margin: 0 10px;
+  }
+}
+.photo-image{
+  img{
+    width: 100%;
   }
 }
 }
